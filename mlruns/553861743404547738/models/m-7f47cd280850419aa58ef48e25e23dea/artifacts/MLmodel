@@ -1,0 +1,53 @@
+artifact_path: file:///E:/Labmentix/projects/EMIpredict/mlruns/553861743404547738/models/m-7f47cd280850419aa58ef48e25e23dea/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.9
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+is_signature_from_type_hint: false
+mlflow_version: 3.5.1
+model_id: m-7f47cd280850419aa58ef48e25e23dea
+model_size_bytes: 6412
+model_uuid: m-7f47cd280850419aa58ef48e25e23dea
+prompts: null
+run_id: fcb2bc7af8404bc084f18ad2dbf44700
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "float", "name": "age", "required": true}, {"type": "float",
+    "name": "monthly_salary", "required": true}, {"type": "float", "name": "years_of_employment",
+    "required": true}, {"type": "float", "name": "credit_score", "required": true},
+    {"type": "float", "name": "requested_amount", "required": true}, {"type": "integer",
+    "name": "requested_tenure", "required": true}, {"type": "float", "name": "bank_balance",
+    "required": true}, {"type": "float", "name": "emergency_fund", "required": true},
+    {"type": "string", "name": "gender", "required": true}, {"type": "string", "name":
+    "marital_status", "required": true}, {"type": "string", "name": "education", "required":
+    true}, {"type": "string", "name": "employment_type", "required": true}, {"type":
+    "string", "name": "company_type", "required": true}, {"type": "string", "name":
+    "house_type", "required": true}, {"type": "string", "name": "emi_scenario", "required":
+    true}, {"type": "long", "name": "existing_loan_flag", "required": true}, {"type":
+    "long", "name": "has_dependents", "required": true}, {"type": "double", "name":
+    "dti_ratio", "required": true}, {"type": "float", "name": "emi_to_income", "required":
+    true}, {"type": "float", "name": "rent_to_income", "required": true}, {"type":
+    "double", "name": "emi_affordability_ratio", "required": true}, {"type": "double",
+    "name": "affordability_gap", "required": true}, {"type": "float", "name": "stability_score",
+    "required": true}, {"type": "double", "name": "salary_x_tenure", "required": true},
+    {"type": "double", "name": "amount_per_month", "required": true}, {"type": "string",
+    "name": "dti_bucket", "required": true}, {"type": "string", "name": "credit_bucket",
+    "required": false}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-11-08 13:21:50.455689'

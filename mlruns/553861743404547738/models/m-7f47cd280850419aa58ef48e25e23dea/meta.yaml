@@ -1,0 +1,10 @@
+artifact_location: file:///E:/Labmentix/projects/EMIpredict/mlruns/553861743404547738/models/m-7f47cd280850419aa58ef48e25e23dea/artifacts
+creation_timestamp: 1762608110432
+experiment_id: '553861743404547738'
+last_updated_timestamp: 1762608116410
+model_id: m-7f47cd280850419aa58ef48e25e23dea
+model_type: null
+name: model
+source_run_id: fcb2bc7af8404bc084f18ad2dbf44700
+status: 2
+status_message: null

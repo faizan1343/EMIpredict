@@ -1,0 +1,18 @@
+# Streamlit deployment requirements for EMIPredict AI
+# This file contains all dependencies needed to run the Streamlit app
+
+# Web framework - Core requirement for deployment
+streamlit>=1.28.0
+
+# Data processing - Required for data loading and manipulation
+pandas>=2.0.0
+numpy>=1.24.0
+pyarrow>=10.0.0  # Required for reading parquet files
+
+# Machine Learning - Core ML libraries
+scikit-learn>=1.3.0
+xgboost>=2.0.0
+
+# Utilities
+cloudpickle>=2.2.0  # Used by scikit-learn for model serialization
+

@@ -1,0 +1,14 @@
+artifact_uri: file:///E:/Labmentix/projects/EMIpredict/mlruns/553861743404547738/1979e5ac64264865aeea01f7b6b72926/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '553861743404547738'
+lifecycle_stage: active
+run_id: 1979e5ac64264865aeea01f7b6b72926
+run_name: RandomForest
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762608912800
+status: 1
+tags: []
+user_id: Faizan

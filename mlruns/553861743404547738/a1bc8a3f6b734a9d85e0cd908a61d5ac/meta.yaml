@@ -1,0 +1,14 @@
+artifact_uri: file:///E:/Labmentix/projects/EMIpredict/mlruns/553861743404547738/a1bc8a3f6b734a9d85e0cd908a61d5ac/artifacts
+end_time: 1762608912789
+entry_point_name: ''
+experiment_id: '553861743404547738'
+lifecycle_stage: active
+run_id: a1bc8a3f6b734a9d85e0cd908a61d5ac
+run_name: LinearRegression
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762608899317
+status: 3
+tags: []
+user_id: Faizan
